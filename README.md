@@ -52,6 +52,7 @@ Qwen3-TTS also showed why overflow protection matters. One MLP layer (`code_pred
 
 ```bash
 pip install git+https://github.com/alexsorokoletov/gtx16-fp16
+# without git: pip install https://github.com/alexsorokoletov/gtx16-fp16/archive/refs/heads/main.zip
 ```
 
 ```python
